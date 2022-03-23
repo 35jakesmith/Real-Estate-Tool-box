@@ -1,0 +1,18 @@
+<section id="clients" class="container">
+    <h1>All Clients</h1>
+
+    {{#each Post}}
+
+    <div class="client">
+        <h3>{{title}}</h3>
+        <p>{{address}}</p>
+        <ul>
+            <li>{{phone_num}}</li>
+        </ul>
+    </div>
+
+    {{else}}
+    <p>No clients bro</p>
+    {{/each}}
+
+</section>

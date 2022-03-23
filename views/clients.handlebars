@@ -1,0 +1,20 @@
+<section id="clients" class="container">
+    <h1>All Clients Yo</h1>
+
+    {{#each Post}}
+      <div class="client">
+      <h3>{{title}}</h3>
+      <p>{{address}}</p>
+      <ul>
+        <li>Phone Number: {{phone_num}}</li>
+        <li><a href="mailto:{{email}}" class="btn">Email</a></li>
+      </ul>
+      <div class="tech">
+        <small>Description: <span>{{description}}</span></small>
+      </div>
+    </div>
+    {{else}}
+      <p>No clients available</p>
+    {{/each}}
+    
+  </section>
