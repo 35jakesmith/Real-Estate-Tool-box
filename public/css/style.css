@@ -74,7 +74,7 @@ header.inner {
   transition: all 0.7s;
 }
 
-/* Gigs */
+
 .client {
   background: var(--bg-color);
   border-bottom: 4px solid var(--primary-color);

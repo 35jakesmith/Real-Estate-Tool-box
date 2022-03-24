@@ -17,8 +17,9 @@ router.get('/clients/add', (req, res) => res.render('add'));
 
 
 // add client
-router.post('/add', (req, res) => {
+router.post('/clients/add', (req, res) => {
   let { title, address, phone_num, description, email } = req.body;
+  res.end();
 })
 
 
