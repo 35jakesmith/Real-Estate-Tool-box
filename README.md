@@ -17,7 +17,7 @@
 
    ## Link
    
-   https://infinite-crag-24416.herokuapp.com/
+   [Deployed Application](https://infinite-crag-24416.herokuapp.com/)
    
    ![image](https://user-images.githubusercontent.com/88916856/159818765-77c3fdf1-bd55-45ab-8629-20aa70df0dfb.png)
 
